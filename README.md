@@ -8,6 +8,9 @@ existe um arquivo chamado variables.tf que contem algumas variaveis que precisam
 São essas variaveis:
 
 credentials_file
+
 subnets
+
 vpc_name
+
 ami
