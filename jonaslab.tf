@@ -106,7 +106,7 @@ resource "aws_lb_target_group" "labjonas" {
 }
 
 resource "aws_lb_listener" "labjonas" {  
-  load_balancer_arn = "${aws_lb.labjonas.arn}"
+  load_balancer_arn =  aws_lb.labjonas.arn
   port              = 80  
   protocol          = "HTTP"
   
